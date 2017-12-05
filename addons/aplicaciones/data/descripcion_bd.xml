@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="0">
+
+	<!-- bd_relacionado_con_aplicativos-->
+
+<record id="bd1" model="bd.aplicacion">
+		<field name="nombre_bd">EXT</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd2" model="bd.aplicacion">
+		<field name="nombre_bd">KEPPER</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd3" model="bd.aplicacion">
+		<field name="nombre_bd">XPERT</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd4" model="bd.aplicacion">
+		<field name="nombre_bd">PPINE</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd5" model="bd.aplicacion">
+		<field name="nombre_bd">CDMA_BTO</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd6" model="bd.aplicacion">
+		<field name="nombre_bd">CDMA_CCS</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd7" model="bd.aplicacion">
+		<field name="nombre_bd">PMVOL</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd8" model="bd.aplicacion">
+		<field name="nombre_bd">PROD86</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd9" model="bd.aplicacion">
+		<field name="nombre_bd">ESBDB</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd10" model="bd.aplicacion">
+		<field name="nombre_bd">TAGOTIS</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd11" model="bd.aplicacion">
+		<field name="nombre_bd">PPAS4</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd12" model="bd.aplicacion">
+		<field name="nombre_bd">CDMABTO</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd13" model="bd.aplicacion">
+		<field name="nombre_bd">BD2RCO</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd14" model="bd.aplicacion">
+		<field name="nombre_bd">BD3RCO</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd15" model="bd.aplicacion">
+		<field name="nombre_bd">PRNDB1</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd16" model="bd.aplicacion">
+		<field name="nombre_bd">COSTOMER</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd17" model="bd.aplicacion">
+		<field name="nombre_bd">RTBDD</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd18" model="bd.aplicacion">
+		<field name="nombre_bd">JUPITER 2</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd19" model="bd.aplicacion">
+		<field name="nombre_bd">INGREPEPA</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd20" model="bd.aplicacion">
+		<field name="nombre_bd">TDMA</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd21" model="bd.aplicacion">
+		<field name="nombre_bd">TFI</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd22" model="bd.aplicacion">
+		<field name="nombre_bd">BD_PAC_PORTAL</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd23" model="bd.aplicacion">
+		<field name="nombre_bd">BDSERIE</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd24" model="bd.aplicacion">
+		<field name="nombre_bd">CONVIT</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd25" model="bd.aplicacion">
+		<field name="nombre_bd">RTBD_PROD</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd26" model="bd.aplicacion">
+		<field name="nombre_bd">HERMES</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd27" model="bd.aplicacion">
+		<field name="nombre_bd">CRMDB</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd28" model="bd.aplicacion">
+		<field name="nombre_bd">PRNDB1</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd29" model="bd.aplicacion">
+		<field name="nombre_bd">DBIMEIR</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd30" model="bd.aplicacion">
+		<field name="nombre_bd">PRN</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd31" model="bd.aplicacion">
+		<field name="nombre_bd">CRMDB1</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd32" model="bd.aplicacion">
+		<field name="nombre_bd">CRMDB2</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd33" model="bd.aplicacion">
+		<field name="nombre_bd">NO HAY INFORMACIÓN</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd34" model="bd.aplicacion">
+		<field name="nombre_bd">FUERA DE SERVICIO</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="bd35" model="bd.aplicacion">
+		<field name="nombre_bd">NO SE LLEVA</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+</data>
+</odoo>

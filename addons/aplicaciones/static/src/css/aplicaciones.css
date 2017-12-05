@@ -1,0 +1,62 @@
+.aplicaciones {
+	/* background-color: orange; */
+	margin-top: -10px;
+}
+
+.imagen_aplicaciones
+{
+	border-radius: 50px;
+	border-color: orange;
+	height: 80px;
+	width: 80px;
+	margin-left: 150px
+}
+h3
+{
+	color: black;
+	text-align: center;
+}
+
+h4
+{
+	color: black;
+}
+
+/*
+.campos_aplicativos_form {
+	color: black;
+	padding-left: 150px;
+	margin-bottom: 30px;
+	margin-left: 12px;
+	margin-top: -60px;
+
+
+}
+
+
+.campos_descripcion_form {
+	color: black;
+	padding-left: 155px;
+	margin-left: 5px;
+	margin-top: 80px;
+}
+
+
+.foto_aplic_form
+{
+border-radius: 50px;
+max-height: 90px;
+max-width: 90px;
+margin-bottom: 10px;
+}
+
+*/
+.page-info-aplic
+{
+	background-color: orange;
+}
+
+.sheet_titulo
+{
+	background-color: blue;
+}

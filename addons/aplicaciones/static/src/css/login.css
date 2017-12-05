@@ -1,0 +1,23 @@
+/************************************** style de login_inherit.xml ********************************************/
+.control-label
+{
+    padding-top: 30px
+}
+
+.contraseña
+{
+    padding-top: 25px
+}
+
+.boton_login
+{
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+/************************************** style de login_layout.xml ********************************************/
+
+.login_layout_center
+{
+  padding-top: 200px;
+}

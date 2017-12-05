@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="0">
+
+	<!-- equipo_relacionado_con_aplicativos-->
+
+<record id="equipo_ADES" model="equipos">
+		<field name="equipo">ADES</field>
+		<field name="ip_equipo">192.168.64.5</field>
+		<field name="ubicacion">Piso 2, Sala 1, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_APS1" model="equipos">
+		<field name="equipo">APS1</field>
+		<field name="ip_equipo">192.168.8.1</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP/HTTPS 4443</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_APS3" model="equipos">
+		<field name="equipo">APS3</field>
+		<field name="ip_equipo">192.168.8.3</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_APS8" model="equipos">
+		<field name="equipo">APS8</field>
+		<field name="ip_equipo">192.168.8.46</field>
+		<field name="ubicacion">Piso 2, Sala 1, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_APS8_1" model="equipos">
+		<field name="equipo">APS8</field>
+		<field name="ip_equipo">192.168.8.4</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASD102" model="equipos">
+		<field name="equipo">ASD102</field>
+		<field name="ip_equipo">10.22.182.155</field>
+		<field name="ubicacion">BTO-AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVR1" model="equipos">
+		<field name="equipo">ASIVR1</field>
+		<field name="ip_equipo">192.168.25.216</field>
+		<field name="ubicacion">NEA</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVR2" model="equipos">
+		<field name="equipo">ASIVR2</field>
+		<field name="ip_equipo">192.168.25.223</field>
+		<field name="ubicacion">NEA</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRBTO1" model="equipos">
+		<field name="equipo">ASIVRBTO1</field>
+		<field name="ip_equipo">192.168.68.193</field>
+		<field name="ubicacion">BTO-CENTRO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRBTO2" model="equipos">
+		<field name="equipo">ASIVRBTO2</field>
+		<field name="ip_equipo">192.168.68.197</field>
+		<field name="ubicacion">BTO-CENTRO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRBTO3" model="equipos">
+		<field name="equipo">ASIVRBTO3</field>
+		<field name="ip_equipo">192.168.68.201</field>
+		<field name="ubicacion">BTO-CENTRO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRBTO4" model="equipos">
+		<field name="equipo">ASIVRBTO4</field>
+		<field name="ip_equipo">192.168.68.205</field>
+		<field name="ubicacion">BTO-CENTRO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRBTO5" model="equipos">
+		<field name="equipo">ASIVRBTO5</field>
+		<field name="ip_equipo">192.168.85.9</field>
+		<field name="ubicacion">BTO-CENTRO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRCCS3" model="equipos">
+		<field name="equipo">ASIVRCCS3</field>
+		<field name="ip_equipo">192.168.29.5</field>
+		<field name="ubicacion">NEA</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRCCS4" model="equipos">
+		<field name="equipo">ASIVRCCS4</field>
+		<field name="ip_equipo">192.168.29.9</field>
+		<field name="ubicacion">NEA</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRCCS5" model="equipos">
+		<field name="equipo">ASIVRCCS5</field>
+		<field name="ip_equipo">192.168.29.13</field>
+		<field name="ubicacion">NEA</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">23-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRCCS6" model="equipos">
+		<field name="equipo">ASIVRCCS6</field>
+		<field name="ip_equipo">192.168.29.17</field>
+		<field name="ubicacion">NEA</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">25-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRLCH1" model="equipos">
+		<field name="equipo">ASIVRLCH1</field>
+		<field name="ip_equipo">192.168.22.216</field>
+		<field name="ubicacion">LECHERIAS-PTO. LA CRUZ</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRLCH2" model="equipos">
+		<field name="equipo">ASIVRLCH2</field>
+		<field name="ip_equipo">192.168.22.223</field>
+		<field name="ubicacion">LECHERIAS-PTO. LA CRUZ</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRMBO1" model="equipos">
+		<field name="equipo">ASIVRMBO1</field>
+		<field name="ip_equipo">192.168.23.216</field>
+		<field name="ubicacion">MARACAIBO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRMBO2" model="equipos">
+		<field name="equipo">ASIVRMBO2</field>
+		<field name="ip_equipo">192.168.23.223</field>
+		<field name="ubicacion">MARACAIBO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRMBO5" model="equipos">
+		<field name="equipo">ASIVRMBO5</field>
+		<field name="ip_equipo">192.168.76.137</field>
+		<field name="ubicacion">MARACAIBO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRMBO6" model="equipos">
+		<field name="equipo">ASIVRMBO6</field>
+		<field name="ip_equipo">192.168.76.141</field>
+		<field name="ubicacion">MARACAIBO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRMBO7" model="equipos">
+		<field name="equipo">ASIVRMBO7</field>
+		<field name="ip_equipo">192.168.76.142</field>
+		<field name="ubicacion">MARACAIBO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRMBO8" model="equipos">
+		<field name="equipo">ASIVRMBO8</field>
+		<field name="ip_equipo">192.168.76.143</field>
+		<field name="ubicacion">MARACAIBO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRMBO9" model="equipos">
+		<field name="equipo">ASIVRMBO9</field>
+		<field name="ip_equipo">192.168.76.144</field>
+		<field name="ubicacion">MARACAIBO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRPTO1" model="equipos">
+		<field name="equipo">ASIVRPTO1</field>
+		<field name="ip_equipo">10.22.6.97</field>
+		<field name="ubicacion">PTO. ORDAZ</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRPTO2" model="equipos">
+		<field name="equipo">ASIVRPTO2</field>
+		<field name="ip_equipo">10.22.6.100</field>
+		<field name="ubicacion">PTO. ORDAZ</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRPTO3" model="equipos">
+		<field name="equipo">ASIVRPTO3</field>
+		<field name="ip_equipo">10.22.6.103</field>
+		<field name="ubicacion">PTO. ORDAZ</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRPTO4" model="equipos">
+		<field name="equipo">ASIVRPTO4</field>
+		<field name="ip_equipo">10.22.6.106</field>
+		<field name="ubicacion">PTO. ORDAZ</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRSCR1" model="equipos">
+		<field name="equipo">ASIVRSCR1</field>
+		<field name="ip_equipo">192.168.56.65</field>
+		<field name="ubicacion">SAN CRISTOBAL</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRSCR2" model="equipos">
+		<field name="equipo">ASIVRSCR2</field>
+		<field name="ip_equipo">192.168.56.69</field>
+		<field name="ubicacion">SAN CRISTOBAL</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRSCR3" model="equipos">
+		<field name="equipo">ASIVRSCR3</field>
+		<field name="ip_equipo">192.168.56.73</field>
+		<field name="ubicacion">SAN CRISTOBAL</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRSCR4" model="equipos">
+		<field name="equipo">ASIVRSCR4</field>
+		<field name="ip_equipo">192.168.56.77</field>
+		<field name="ubicacion">SAN CRISTOBAL</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRVAL1" model="equipos">
+		<field name="equipo">ASIVRVAL1</field>
+		<field name="ip_equipo">192.168.24.216</field>
+		<field name="ubicacion">VALENCIA</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASIVRVAL2" model="equipos">
+		<field name="equipo">ASIVRVAL2</field>
+		<field name="ip_equipo">192.168.24.223</field>
+		<field name="ubicacion">VALENCIA</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP1" model="equipos">
+		<field name="equipo">ASP1</field>
+		<field name="ip_equipo">192.168.8.5</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP10" model="equipos">
+		<field name="equipo">ASP10</field>
+		<field name="ip_equipo">192.168.8.8</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP11" model="equipos">
+		<field name="equipo">ASP11</field>
+		<field name="ip_equipo">192.168.8.60</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP16" model="equipos">
+		<field name="equipo">ASP16</field>
+		<field name="ip_equipo">192.168.8.13</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP/HTTPS 4443</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP17" model="equipos">
+		<field name="equipo">ASP17</field>
+		<field name="ip_equipo">192.168.8.14</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP/HTTPS 4443</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP18" model="equipos">
+		<field name="equipo">ASP18</field>
+		<field name="ip_equipo">192.168.8.15</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP31" model="equipos">
+		<field name="equipo">ASP31</field>
+		<field name="ip_equipo">192.168.8.59</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP36" model="equipos">
+		<field name="equipo">ASP36</field>
+		<field name="ip_equipo">192.168.8.65</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP37" model="equipos">
+		<field name="equipo">ASP37</field>
+		<field name="ip_equipo">192.168.8.66</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP41" model="equipos">
+		<field name="equipo">ASP41</field>
+		<field name="ip_equipo">192.168.8.70</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP43" model="equipos">
+		<field name="equipo">ASP43</field>
+		<field name="ip_equipo">192.168.8.72</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP45" model="equipos">
+		<field name="equipo">ASP45</field>
+		<field name="ip_equipo">192.168.8.74</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP46" model="equipos">
+		<field name="equipo">ASP46</field>
+		<field name="ip_equipo">192.168.8.75</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP47" model="equipos">
+		<field name="equipo">ASP47</field>
+		<field name="ip_equipo">192.168.8.76</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP48" model="equipos">
+		<field name="equipo">ASP48</field>
+		<field name="ip_equipo">192.168.8.77</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP/HTTPS 4443</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP49" model="equipos">
+		<field name="equipo">ASP49</field>
+		<field name="ip_equipo">192.168.8.78</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+
+</record>
+
+<record id="equipo_ASP53" model="equipos">
+		<field name="equipo">ASP53</field>
+		<field name="ip_equipo">192.168.8.80</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP54" model="equipos">
+		<field name="equipo">ASP54</field>
+		<field name="ip_equipo">192.168.8.81</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP6" model="equipos">
+		<field name="equipo">ASP6</field>
+		<field name="ip_equipo">192.168.8.6</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP61" model="equipos">
+		<field name="equipo">ASP61</field>
+		<field name="ip_equipo">192.168.8.88</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASP7" model="equipos">
+		<field name="equipo">ASP7</field>
+		<field name="ip_equipo">192.168.8.27</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPBTO09" model="equipos">
+		<field name="equipo">ASPBTO09</field>
+		<field name="ip_equipo">192.168.85.25</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPBTO10" model="equipos">
+		<field name="equipo">ASPBTO10</field>
+		<field name="ip_equipo">192.168.85.27</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPBTO12" model="equipos">
+		<field name="equipo">ASPBTO10</field>
+		<field name="ip_equipo">192.168.85.31</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS01" model="equipos">
+		<field name="equipo">ASPCCS01</field>
+		<field name="ip_equipo">192.168.8.116</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP/HTTPS 4443</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS02" model="equipos">
+		<field name="equipo">ASPCCS02</field>
+		<field name="ip_equipo">192.168.8.117</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP/HTTPS 4443</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS03" model="equipos">
+		<field name="equipo">ASPCCS03</field>
+		<field name="ip_equipo">192.168.8.118</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS04" model="equipos">
+		<field name="equipo">ASPCCS04</field>
+		<field name="ip_equipo">192.168.8.119</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS05" model="equipos">
+		<field name="equipo">ASPCCS05</field>
+		<field name="ip_equipo">192.168.8.122</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS06" model="equipos">
+		<field name="equipo">ASPCCS06</field>
+		<field name="ip_equipo">192.168.8.123</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS07" model="equipos">
+		<field name="equipo">ASPCCS07</field>
+		<field name="ip_equipo">192.168.8.124</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS08" model="equipos">
+		<field name="equipo">ASPCCS08</field>
+		<field name="ip_equipo">192.168.8.125</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS09" model="equipos">
+		<field name="equipo">ASPCCS09</field>
+		<field name="ip_equipo">192.168.8.84</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS10" model="equipos">
+		<field name="equipo">ASPCCS10</field>
+		<field name="ip_equipo">192.168.6.132</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS13" model="equipos">
+		<field name="equipo">ASPCCS13</field>
+		<field name="ip_equipo">192.168.8.166</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS16" model="equipos">
+		<field name="equipo">ASPCCS16</field>
+		<field name="ip_equipo">192.168.8.242</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP/HTTPS 443/5432</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS17" model="equipos">
+		<field name="equipo">ASPCCS17</field>
+		<field name="ip_equipo">161.196.198.2</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS18" model="equipos">
+		<field name="equipo">ASPCCS18</field>
+		<field name="ip_equipo">192.168.8.127</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS19" model="equipos">
+		<field name="equipo">ASPCCS19</field>
+		<field name="ip_equipo">192.168.8.134</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS20" model="equipos">
+		<field name="equipo">ASPCCS20</field>
+		<field name="ip_equipo">161.196.198.85</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS21" model="equipos">
+		<field name="equipo">ASPCCS21</field>
+		<field name="ip_equipo">161.196.198.85</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS25" model="equipos">
+		<field name="equipo">ASPCCS25</field>
+		<field name="ip_equipo">192.168.52.83</field>
+		<field name="ubicacion">CHACAO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS26" model="equipos">
+		<field name="equipo">ASPCCS26</field>
+		<field name="ip_equipo">192.168.52.82</field>
+		<field name="ubicacion">CHACAO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS27" model="equipos">
+		<field name="equipo">ASPCCS27</field>
+		<field name="ip_equipo">192.168.52.81</field>
+		<field name="ubicacion">CHACAO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS28" model="equipos">
+		<field name="equipo">ASPCCS28</field>
+		<field name="ip_equipo">192.168.52.80</field>
+		<field name="ubicacion">CHACAO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS29" model="equipos">
+		<field name="equipo">ASPCCS29</field>
+		<field name="ip_equipo">192.168.210.2</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS30" model="equipos">
+		<field name="equipo">ASPCCS30</field>
+		<field name="ip_equipo">192.168.210.3</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS31" model="equipos">
+		<field name="equipo">ASPCCS31</field>
+		<field name="ip_equipo">192.168.210.4</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS35" model="equipos">
+		<field name="equipo">ASPCCS35</field>
+		<field name="ip_equipo">192.168.210.10</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS37" model="equipos">
+		<field name="equipo">ASPCCS37</field>
+		<field name="ip_equipo">192.168.8.31</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCCS38" model="equipos">
+		<field name="equipo">ASPCCS38</field>
+		<field name="ip_equipo">192.168.8.10</field>
+		<field name="ubicacion">NO UBICADO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPCTEL1" model="equipos">
+		<field name="equipo">ASPCTEL1</field>
+		<field name="ip_equipo">192.168.6.130</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ASPWAP1" model="equipos">
+		<field name="equipo">ASPWAP1</field>
+		<field name="ip_equipo">192.168.8.24</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_AUTANA" model="equipos">
+		<field name="equipo">AUTANA</field>
+		<field name="ip_equipo">192.168.8.23</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod07" model="equipos">
+		<field name="equipo">aya-asprod07</field>
+		<field name="ip_equipo">192.168.85.152</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod08" model="equipos">
+		<field name="equipo">aya-asprod08</field>
+		<field name="ip_equipo">192.168.85.152</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod09" model="equipos">
+		<field name="equipo">aya-asprod09</field>
+		<field name="ip_equipo">192.168.85.153</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod10" model="equipos">
+		<field name="equipo">aya-asprod10</field>
+		<field name="ip_equipo">192.168.85.154</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod11" model="equipos">
+		<field name="equipo">aya-asprod11</field>
+		<field name="ip_equipo">192.168.85.155</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod12" model="equipos">
+		<field name="equipo">aya-asprod12</field>
+		<field name="ip_equipo">192.168.85.156</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod13" model="equipos">
+		<field name="equipo">aya-asprod13</field>
+		<field name="ip_equipo">192.168.85.157</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod14" model="equipos">
+		<field name="equipo">aya-asprod14</field>
+		<field name="ip_equipo">192.168.85.158</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod15" model="equipos">
+		<field name="equipo">aya-asprod15</field>
+		<field name="ip_equipo">192.168.85.159</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod16" model="equipos">
+		<field name="equipo">aya-asprod16</field>
+		<field name="ip_equipo">192.168.85.160</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod17" model="equipos">
+		<field name="equipo">aya-asprod17</field>
+		<field name="ip_equipo">192.168.85.169</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod18" model="equipos">
+		<field name="equipo">aya-asprod18</field>
+		<field name="ip_equipo">192.168.85.96</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod19" model="equipos">
+		<field name="equipo">aya-asprod19</field>
+		<field name="ip_equipo">192.168.85.175</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod20" model="equipos">
+		<field name="equipo">aya-asprod20</field>
+		<field name="ip_equipo">192.168.85.95</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod21" model="equipos">
+		<field name="equipo">aya-asprod21</field>
+		<field name="ip_equipo">192.168.85.176</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-asprod22" model="equipos">
+		<field name="equipo">aya-asprod22</field>
+		<field name="ip_equipo">192.168.85.177</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_aya-webprod05" model="equipos">
+		<field name="equipo">aya-webprod05</field>
+		<field name="ip_equipo">192.168.85.94</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ccapp1" model="equipos">
+		<field name="equipo">ccapp1</field>
+		<field name="ip_equipo">10.22.180.135</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ccapp2" model="equipos">
+		<field name="equipo">ccapp2</field>
+		<field name="ip_equipo">10.22.180.136</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ccapp3" model="equipos">
+		<field name="equipo">ccapp3</field>
+		<field name="ip_equipo">10.22.180.177</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ccweb1" model="equipos">
+		<field name="equipo">ccweb1</field>
+		<field name="ip_equipo">10.22.180.129</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ccweb2" model="equipos">
+		<field name="equipo">ccweb2</field>
+		<field name="ip_equipo">10.22.180.130</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_CIBELES" model="equipos">
+		<field name="equipo">CIBELES</field>
+		<field name="ip_equipo">192.168.40.206</field>
+		<field name="ubicacion">CHACAO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_esb1" model="equipos">
+		<field name="equipo">esb1</field>
+		<field name="ip_equipo">10.22.180.142</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_esb2" model="equipos">
+		<field name="equipo">esb2</field>
+		<field name="ip_equipo">10.22.180.144</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_esb3" model="equipos">
+		<field name="equipo">esb3</field>
+		<field name="ip_equipo">10.22.180.179</field>
+		<field name="ubicacion">BTO AYACUCHO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_GALATEA" model="equipos">
+		<field name="equipo">GALATEA</field>
+		<field name="ip_equipo">161196198100</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ISP1" model="equipos">
+		<field name="equipo">ISP1</field>
+		<field name="ip_equipo">192.168.45.193</field>
+		<field name="ubicacion">CHACAO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_ISP4" model="equipos">
+		<field name="equipo">ISP4</field>
+		<field name="ip_equipo">192.168.45.194</field>
+		<field name="ubicacion">CHACAO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_JUYA GW" model="equipos">
+		<field name="equipo">JUYA GW</field>
+		<field name="ip_equipo">192.168.8.160</field>
+		<field name="ubicacion">NO UBICADO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_MASUNICA1" model="equipos">
+		<field name="equipo">MASUNICA1</field>
+		<field name="ip_equipo">192.168.32.233</field>
+		<field name="ubicacion">CHACAO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_MASUNICA2" model="equipos">
+		<field name="equipo">MASUNICA2</field>
+		<field name="ip_equipo">192.168.32.234</field>
+		<field name="ubicacion">CHACAO</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_mtboasprod1" model="equipos">
+		<field name="equipo">mtboasprod1</field>
+		<field name="ip_equipo">192.168.210.132</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_mtboasprod2" model="equipos">
+		<field name="equipo">mtboasprod2</field>
+		<field name="ip_equipo">192.168.210.133</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_MTBOASPROD5" model="equipos">
+		<field name="equipo">MTBOASPROD5</field>
+		<field name="ip_equipo">192.168.210.147</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_MTBOASPROD6" model="equipos">
+		<field name="equipo">MTBOASPROD6</field>
+		<field name="ip_equipo">192.168.210.146</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_MTBSCRIPT01" model="equipos">
+		<field name="equipo">MTBSCRIPT01</field>
+		<field name="ip_equipo">192.168.210.70</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_mtb-webprod05" model="equipos">
+		<field name="equipo">mtb-webprod05</field>
+		<field name="ip_equipo">192.168.211.23</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_mtb-webprod06" model="equipos">
+		<field name="equipo">mtb-webprod06</field>
+		<field name="ip_equipo">192.168.211.24</field>
+		<field name="ubicacion">MONTALBAN</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_NEWTON" model="equipos">
+		<field name="equipo">NEWTON</field>
+		<field name="ip_equipo">161.196.198.84</field>
+		<field name="ubicacion">Piso 2, Sala 1, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_PASCAL" model="equipos">
+		<field name="equipo">PASCAL</field>
+		<field name="ip_equipo">161.196.198.83</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_PORTAL" model="equipos">
+		<field name="equipo">PORTAL</field>
+		<field name="ip_equipo">192.168.8.241</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_TEBE" model="equipos">
+		<field name="equipo">TEBE</field>
+		<field name="ip_equipo">161.196.198.121</field>
+		<field name="ubicacion">Piso 2, Sala 1, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_USRECREO02" model="equipos">
+		<field name="equipo">USRECREO02</field>
+		<field name="ip_equipo">161.196.198.82</field>
+		<field name="ubicacion">Piso 2, Sala 1, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_WSP1" model="equipos">
+		<field name="equipo">WSP1</field>
+		<field name="ip_equipo">192.168.8.30</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_WSP2" model="equipos">
+		<field name="equipo">WSP2</field>
+		<field name="ip_equipo">192.168.8.25</field>
+		<field name="ubicacion">Piso 2, Sala 2, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_WSP3" model="equipos">
+		<field name="equipo">WSP3</field>
+		<field name="ip_equipo">1192.168.8.49</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+<record id="equipo_WSP4" model="equipos">
+		<field name="equipo">WSP4</field>
+		<field name="ip_equipo">192.168.8.50</field>
+		<field name="ubicacion">Piso 16, El Recreo</field>
+		<field name="puerto_d">7777</field>
+		<field name="puerto_h">7780</field>
+		<field name="puerto_o">22-SSH/SFTP</field>
+		<field name="equipos_id" ref="model_aplicaciones"/>
+
+</record>
+
+</data>
+</odoo>

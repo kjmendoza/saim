@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="0">
+
+	<!-- Data de Data Source-->
+
+	<record id="data_source_1" model="data.s.aplicacion">
+			<field name="data_s">mcp_Keppler_ConnectionPool</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_2" model="data.s.aplicacion">
+			<field name="data_s">mcp_Expert_ConnectionPool</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_4" model="data.s.aplicacion">
+			<field name="data_s">JANO_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_6" model="data.s.aplicacion">
+			<field name="data_s">SISE</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_7" model="data.s.aplicacion">
+			<field name="data_s">SISEWF</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_8" model="data.s.aplicacion">
+			<field name="data_s">RAC</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_9" model="data.s.aplicacion">
+			<field name="data_s">PPINES_PLINEA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_10" model="data.s.aplicacion">
+			<field name="data_s">PREPAGO_XPERT</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_12" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_CDMA01</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_13" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_CDMA02</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_14" model="data.s.aplicacion">
+			<field name="data_s">SERVICIOS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_15" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_GSM01</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_16" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_GSM02</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_17" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_TFI_PPAY_ConnectionPool</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_18" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_TFI_KEPPLER_ConnectionPool</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_19" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_TFI_PPAYTFI_ConnectionPool</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_20" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_TFI_PPINE_ConnectionPool</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_21" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_TFI_PRN_ConnectionPool</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_22" model="data.s.aplicacion">
+			<field name="data_s">SADCDMA_PG</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_23" model="data.s.aplicacion">
+			<field name="data_s">WSSERIE_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_24" model="data.s.aplicacion">
+			<field name="data_s">WSSERIE_BDRN_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_25" model="data.s.aplicacion">
+			<field name="data_s">SERIE_EXPERT_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_26" model="data.s.aplicacion">
+			<field name="data_s">WSVC_BDRN_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_27" model="data.s.aplicacion">
+			<field name="data_s">WSVC_SERIE_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_28" model="data.s.aplicacion">
+			<field name="data_s">WSVC_POSPAGO_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_29" model="data.s.aplicacion">
+			<field name="data_s">WSVC_PPAY_TDMA00_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_30" model="data.s.aplicacion">
+			<field name="data_s">WSVC_PPAY_CDMA01_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_31" model="data.s.aplicacion">
+			<field name="data_s">WSVC_PPAY_CDMA02_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_32" model="data.s.aplicacion">
+			<field name="data_s">SISE</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_33" model="data.s.aplicacion">
+			<field name="data_s">PINES (192.168.37.111)</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_34" model="data.s.aplicacion">
+			<field name="data_s">SISEWF_PREPAGO</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+
+	<record id="data_source_36" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_TDMA00</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_37" model="data.s.aplicacion">
+			<field name="data_s">TDMA_CVENTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_38" model="data.s.aplicacion">
+			<field name="data_s">ORA9I_CVENTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_39" model="data.s.aplicacion">
+			<field name="data_s">CDMA_PREPAGO</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_40" model="data.s.aplicacion">
+			<field name="data_s">TDMA_PREPAGO</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_41" model="data.s.aplicacion">
+			<field name="data_s">ORA9I_PREPAGO</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+
+	<record id="data_source_43" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_CDMA01_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_44" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_TDMA00_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_45" model="data.s.aplicacion">
+			<field name="data_s">ORA9I_JANO</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_46" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_GSM01_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_47" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_GSM02_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_48" model="data.s.aplicacion">
+			<field name="data_s">PLINEA_GSM03_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_49" model="data.s.aplicacion">
+			<field name="data_s">TSTMOV</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_50" model="data.s.aplicacion">
+			<field name="data_s">BDSERIE1</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_51" model="data.s.aplicacion">
+			<field name="data_s">B2B_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_52" model="data.s.aplicacion">
+			<field name="data_s">CDMA_CVENTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_53" model="data.s.aplicacion">
+			<field name="data_s">CDV</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_54" model="data.s.aplicacion">
+			<field name="data_s">CDMA_CCS_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_55" model="data.s.aplicacion">
+			<field name="data_s">CDMA_BTO_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_56" model="data.s.aplicacion">
+			<field name="data_s">OVAA_TDMA00</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_57" model="data.s.aplicacion">
+			<field name="data_s">OVAA_TDMA01</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_58" model="data.s.aplicacion">
+			<field name="data_s">OVAA_TDMA02</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_59" model="data.s.aplicacion">
+			<field name="data_s">CONVIT_OVAA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_60" model="data.s.aplicacion">
+			<field name="data_s">DWHP_OVAA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_61" model="data.s.aplicacion">
+			<field name="data_s">TFI_OVAA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_62" model="data.s.aplicacion">
+			<field name="data_s">XPERT_OVAA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_63" model="data.s.aplicacion">
+			<field name="data_s">PPINE_OVAA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_64" model="data.s.aplicacion">
+			<field name="data_s">KEPPLER_OVAA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_65" model="data.s.aplicacion">
+			<field name="data_s">OVAA_SERVICIOS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_66" model="data.s.aplicacion">
+			<field name="data_s">ORA9I_REPEQU_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_67" model="data.s.aplicacion">
+			<field name="data_s">XPERT_REPEQU</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_68" model="data.s.aplicacion">
+			<field name="data_s">WSPBRACC_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_69" model="data.s.aplicacion">
+			<field name="data_s">WSPMDATAR_</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_70" model="data.s.aplicacion">
+			<field name="data_s">WSPMDATAC_</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_71" model="data.s.aplicacion">
+			<field name="data_s">WSPRCOVERY_</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_72" model="data.s.aplicacion">
+			<field name="data_s">WSPCLOSE_</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_73" model="data.s.aplicacion">
+			<field name="data_s">WSPBRPLAN_</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_74" model="data.s.aplicacion">
+			<field name="data_s">BBERRY_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_75" model="data.s.aplicacion">
+			<field name="data_s">RAC_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_76" model="data.s.aplicacion">
+			<field name="data_s">OTAF_CDMA01_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_77" model="data.s.aplicacion">
+			<field name="data_s">OTAF_CDMA02_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_79" model="data.s.aplicacion">
+			<field name="data_s">SPCADM_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_80" model="data.s.aplicacion">
+			<field name="data_s">MOVIVRB2BAPP_</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_81" model="data.s.aplicacion">
+			<field name="data_s">jdbc/Jupiter10g</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_82" model="data.s.aplicacion">
+			<field name="data_s">jdbc/wsactivador</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_83" model="data.s.aplicacion">
+			<field name="data_s">jdbc/SUBSCRIBER_XPERT_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_84" model="data.s.aplicacion">
+			<field name="data_s">jdbc/BR_SUBSCRIBER_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_85" model="data.s.aplicacion">
+			<field name="data_s">jdbc/CLOSEDTRANS_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_86" model="data.s.aplicacion">
+			<field name="data_s">jdbc/CLOSEDTRANS_XPERT_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_87" model="data.s.aplicacion">
+			<field name="data_s">jdbc/PLANOFFER_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_88" model="data.s.aplicacion">
+			<field name="data_s">jdbc/PLANOFFER_CDMA01_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_89" model="data.s.aplicacion">
+			<field name="data_s">jdbc/PLANOFFER_CDMA02_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_90" model="data.s.aplicacion">
+			<field name="data_s">jdbc/PLANOFFER_XPERT_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+
+	<record id="data_source_92" model="data.s.aplicacion">
+			<field name="data_s">jdbc/SERIALRN_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_93" model="data.s.aplicacion">
+			<field name="data_s">jdbc/SERIAL_CUSTOMER_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_94" model="data.s.aplicacion">
+			<field name="data_s">jdbc/MASTERDATA_CDMA01_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_95" model="data.s.aplicacion">
+			<field name="data_s">jdbc/MASTERDATA_CDMA02_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_96" model="data.s.aplicacion">
+			<field name="data_s">jdbc/MARTERDATA_EXPERT_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+
+	<record id="data_source_98" model="data.s.aplicacion">
+			<field name="data_s">jdbc/SUBSCRIBERCDMA_CDMA01_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_98" model="data.s.aplicacion">
+			<field name="data_s">jdbc/SUBSCRIBERCDMA_CDMA02_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_99" model="data.s.aplicacion">
+			<field name="data_s">jdbc/XCINCO_CDMA01_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_100" model="data.s.aplicacion">
+			<field name="data_s">jdbc/XCINCO_CDMA02_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_101" model="data.s.aplicacion">
+			<field name="data_s">jdbc/CONSULTDATA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_102" model="data.s.aplicacion">
+			<field name="data_s">jdbc/CONSULTDATA_CDMA01_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_103" model="data.s.aplicacion">
+			<field name="data_s">jdbc/CONSULTDATA_CDMA02_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_104" model="data.s.aplicacion">
+			<field name="data_s">jdbc/PROMOTIONS_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_105" model="data.s.aplicacion">
+			<field name="data_s">jdbc/KEPPLER_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_106" model="data.s.aplicacion">
+			<field name="data_s">jdbc/Convit</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_107" model="data.s.aplicacion">
+			<field name="data_s">jdbc/RTB_CONSULTINFO</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_108" model="data.s.aplicacion">
+			<field name="data_s">jdbc/CONSULTAX_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_109" model="data.s.aplicacion">
+			<field name="data_s">jdbc/CONSULTAX_XPERT_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_110" model="data.s.aplicacion">
+			<field name="data_s">jdbc/HISTNOMONETARY_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_111" model="data.s.aplicacion">
+			<field name="data_s">jdbc:oracle:oci:@PRNDB</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_112" model="data.s.aplicacion">
+			<field name="data_s">jdbc/SUBSCRIBER_EXPERT_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_113" model="data.s.aplicacion">
+			<field name="data_s">jdbc/RPNPPAY</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_114" model="data.s.aplicacion">
+			<field name="data_s">jdbc/WSCONSULTIMEI_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_115" model="data.s.aplicacion">
+			<field name="data_s">WSConversionMEID_CP</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_116" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_APROVISIONADOR_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_117" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_CLIENTEACTUALIZACION_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_118" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_CLIENTECONSULTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+
+	<record id="data_source_120" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_EQUIPOACTUALIZACION_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+
+	<record id="data_source_122" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_EQUIPOACTUALIZACION_XPERT_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_123" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_EQUIPOCONSULTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_124" model="data.s.aplicacion">
+			<field name="data_s">dbc/TV_DATOSCOMCONSULTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_125" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_CTACONTRATOCONSULTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_126" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_CTACONTRATOACTUALIZACION_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_127" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_BALANCEACTUALIZACION_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_128" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_PROMOCIONCONSULTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+
+	<record id="data_source_128" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_CUENTACONTRATOCIERRE_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_129" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_CTACONTRATOVALIDACION_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_130" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_HISTORICOSCONSULTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_131" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_TARJETAACTUALIZACION_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_132" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_MEMOS_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_133" model="data.s.aplicacion">
+			<field name="data_s">jdbc/TV_DIRECCIONCONSULTA_DS</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_134" model="data.s.aplicacion">
+			<field name="data_s">jdbc:oracle:oci:@CDMA2</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_135" model="data.s.aplicacion">
+			<field name="data_s">jdbc:oracle:oci:@CDMA3</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_136" model="data.s.aplicacion">
+			<field name="data_s">jdbc:oracle:thin:@(DESCRIPTION= (ADDRESS= (HOST=192.168.32.232) (PROTOCOL=TCP) (PORT=1529)) (CONNECT_DATA=(SID=PPAY)</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_137" model="data.s.aplicacion">
+			<field name="data_s">jdbc:oracle:oci:@PPINE2</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_138" model="data.s.aplicacion">
+			<field name="data_s">jdbc:oracle:oci:@PPINE</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_139" model="data.s.aplicacion">
+			<field name="data_s">jdbc:oracle:thin:@192.168.32.232:1529:PPAY</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_140" model="data.s.aplicacion">
+			<field name="data_s">DBLINK</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_source_141" model="data.s.aplicacion">
+			<field name="data_s">NO TIENE</field>
+			<field name="data_source_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<!-- Fin Data de Data Source-->
+
+
+
+
+
+	<!-- Data de Data MIN-->
+
+	<record id="data_min_1" model="data.min.aplicacion">
+			<field name="data_min">1</field>
+			<field name="data_mini_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_min_2" model="data.min.aplicacion">
+			<field name="data_min">2</field>
+			<field name="data_mini_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_min_3" model="data.min.aplicacion">
+			<field name="data_min">3</field>
+			<field name="data_mini_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_min_4" model="data.min.aplicacion">
+			<field name="data_min">4</field>
+			<field name="data_mini_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_min_5" model="data.min.aplicacion">
+			<field name="data_min">5</field>
+			<field name="data_mini_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_min_6" model="data.min.aplicacion">
+			<field name="data_min">8</field>
+			<field name="data_mini_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_min_7" model="data.min.aplicacion">
+			<field name="data_min">10</field>
+			<field name="data_mini_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_min_8" model="data.min.aplicacion">
+			<field name="data_min">80</field>
+			<field name="data_mini_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<!-- Fin Data de Data MIN-->
+
+
+
+
+	<!-- Data de Data MAX-->
+
+	<record id="data_max_1" model="data.max.aplicacion">
+			<field name="data_max">1</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_2" model="data.max.aplicacion">
+			<field name="data_max">2</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_3" model="data.max.aplicacion">
+			<field name="data_max">3</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_4" model="data.max.aplicacion">
+			<field name="data_max">4</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_5" model="data.max.aplicacion">
+			<field name="data_max">5</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+
+	<record id="data_max_6" model="data.max.aplicacion">
+			<field name="data_max">6</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_7" model="data.max.aplicacion">
+			<field name="data_max">8</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_8" model="data.max.aplicacion">
+			<field name="data_max">9</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_9" model="data.max.aplicacion">
+			<field name="data_max">10</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_10" model="data.max.aplicacion">
+			<field name="data_max">15</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_11" model="data.max.aplicacion">
+			<field name="data_max">16</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_12" model="data.max.aplicacion">
+			<field name="data_max">20</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_13" model="data.max.aplicacion">
+			<field name="data_max">27</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_14" model="data.max.aplicacion">
+			<field name="data_max">30</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_15" model="data.max.aplicacion">
+			<field name="data_max">40</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_16" model="data.max.aplicacion">
+			<field name="data_max">47</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_17" model="data.max.aplicacion">
+			<field name="data_max">50</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_18" model="data.max.aplicacion">
+			<field name="data_max">56</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_19" model="data.max.aplicacion">
+			<field name="data_max">60</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_20" model="data.max.aplicacion">
+			<field name="data_max">90</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_21" model="data.max.aplicacion">
+			<field name="data_max">100</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="data_max_22" model="data.max.aplicacion">
+			<field name="data_max">200</field>
+			<field name="data_maxi_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<!-- Fin Data de Data MAX-->
+
+
+
+
+	<!-- Data de Configuración-->
+
+	<record id="configuracion_1" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:oci:@KEPPLER</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_2" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:thin:@161.196.97.15:1526:PMOVOL</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_3" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:oci:@KEPPLER_1</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_4" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:thin:@161.196.198.9:1521:JANO</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_5" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:oci:@CONVIT</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_6" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:oci:@EXT</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_7" model="conf.aplicacion">
+			<field name="configuracion">jjdbc:oracle:oci:@PPINE</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_8" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:thin:@192.168.0.8:1521:PPAY</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_9" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:thin:@192.168.37.102:1531:PPAY2</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_10" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:thin:@192.168.230.148:1531:PPAY6</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_11" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:oci:@PPAYCCS</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_12" model="conf.aplicacion">
+			<field name="configuracion">DBLINK: CUST</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_13" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:thin:@ppas2.movilnet.com.ve:1529:PPAY</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_14" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:oci:@PRNDB</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_15" model="conf.aplicacion">
+			<field name="configuracion">jdbc:postgresql://192.168.8.242:5432/PGSQL_01</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_16" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:oci:@WSSERIEPRN</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<record id="configuracion_17" model="conf.aplicacion">
+			<field name="configuracion">jdbc:oracle:oci:@PMOVOL</field>
+			<field name="config_id" ref="model_aplicaciones"/>
+
+	</record>
+
+	<!-- Fin Data de Configuración-->
+
+
+</data>
+</odoo>

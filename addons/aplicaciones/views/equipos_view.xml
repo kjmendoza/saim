@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<odoo>
+<data>
+
+    <!-- VISTA FORM: Equipos SO -->
+    <record model="ir.ui.view" id="view_equipos_form">
+        <field name="name">equipos.form</field>
+        <field name="model">equipos</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+        <form string="equipos">
+            <group col="4" colspan="2">
+                <field name="equipo"/>
+                <field name="ip_equipo"/>
+            </group>
+            <group colspan="4">
+                <field name="ubicacion"/>
+            </group>
+            <hr/>
+            <group colspan="2" col="6">
+                <field name="puerto_d"/>
+                <field name="puerto_h"/>
+                <field name="puerto_o"/>
+
+            </group>
+            </form>
+        </field>
+    </record>
+    <!-- FIN VISTA FORM: Equipos SO -->
+
+    <!-- VISTA TREE: Equipos SO -->
+    <record model="ir.ui.view" id="view_equipos_tree">
+        <field name="name">equipos.tree</field>
+        <field name="model">equipos</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="equipos">
+                <field name="equipo"/>
+                <field name="ip_equipo"/>
+                <field name="ubicacion"/>
+                <field name="puerto_d"/>
+                <field name="puerto_h"/>
+                <field name="puerto_o"/>
+            </tree>
+        </field>
+    </record>
+    <!-- FIN VISTA TREE: Equipos SO -->
+
+    <!-- VISTA SEARCH: Equipos SO-->
+
+    <record  model="ir.ui.view" id="view_equipo_search">
+      <field name="name">equipos.search></field>
+      <field name="model">equipos</field>
+      <field name="type">search</field>
+      <field name="arch" type="xml">
+        <search string="Busqueda Avanzada">
+<!--                                      filtro por servidores                                           -->
+
+<!-- filtrar por servidores APS-->
+    <filter name="filtro_nombre_servidor_APS" string="Servidores APS" domain="[('equipo','like','APS')]"/>
+<!-- filtrar por servidores ASD-->
+    <filter name="filtro_nombre_servidor_ASD" string="Servidores ASD" domain="[('equipo','like','ASD')]"/>
+<!-- filtrar por servidores ASIVR-->
+    <filter name="filtro_nombre_servidor_ASIVR" string="Servidores ASP" domain="[('equipo','like','ASIVR')]"/>
+<!-- filtrar por servidores ASP-->
+    <filter name="filtro_nombre_servidor_ASP" string="Servidores ASP" domain="[('equipo','like','ASP')]"/>
+<!-- filtrar por servidores ASPBT-->
+    <filter name="filtro_nombre_servidor_ASPBT" string="Servidores ASPBT" domain="[('equipo','like','ASPBT')]"/>
+<!-- filtrar por servidores ASPCCS-->
+    <filter name="filtro_nombre_servidor_ASPCCS" string="Servidores ASPCCS" domain="[('equipo','like','ASPCCS')]"/>
+<!-- filtrar por servidores ASPCTEL1-->
+    <filter name="filtro_nombre_servidor_ASPCTEL1" string="Servidores ASPCTEL1" domain="[('equipo','like','ASPCTEL1')]"/>
+<!-- filtrar por servidores ASPWAP1-->
+    <filter name="filtro_nombre_servidor_ASPWAP1" string="Servidores SPWAP1" domain="[('equipo','like','SPWAP1')]"/>
+<!-- filtrar por servidores AUTANA-->
+    <filter name="filtro_nombre_servidor_AUTANA" string="Servidores AUTANA" domain="[('equipo','like','AUTANA')]"/>
+<!-- filtrar por servidores aya-asprod-->
+    <filter name="filtro_nombre_servidor_aya-asprod" string="Servidores aya-asprod" domain="[('equipo','like','aya-asprod')]"/>
+<!-- filtrar por servidores aya-webprod-->
+    <filter name="filtro_nombre_servidor_aya-webprod" string="Servidores aya-webprod" domain="[('equipo','like','aya-webprod')]"/>
+<!-- filtrar por servidores ccapp-->
+    <filter name="filtro_nombre_servidor_ccapp" string="Servidores ccapp" domain="[('equipo','like','ccapp')]"/>
+<!-- filtrar por servidores ccweb-->
+    <filter name="filtro_nombre_servidor_ccweb" string="Servidores ccweb" domain="[('equipo','like','ccweb')]"/>
+<!-- filtrar por servidores CIBELES-->
+    <filter name="filtro_nombre_servidor_CIBELES" string="Servidores CIBELES" domain="[('equipo','like','CIBELES')]"/>
+<!-- filtrar por servidores esb-->
+    <filter name="filtro_nombre_servidor_esb" string="Servidores esb" domain="[('equipo','like','esb')]"/>
+<!-- filtrar por servidores GALATEA-->
+    <filter name="filtro_nombre_servidor_GALATEA" string="Servidores GALATEA" domain="[('equipo','like','GALATEA')]"/>
+<!-- filtrar por servidores ISP-->
+    <filter name="filtro_nombre_servidor_ISP" string="Servidores ISP" domain="[('equipo','like','ISP')]"/>
+<!-- filtrar por servidores JUYA GW-->
+    <filter name="filtro_nombre_servidor_JUYA GW" string="Servidores JUYA GW" domain="[('equipo','like','JUYA GW')]"/>
+<!-- filtrar por servidores MASUNICA-->
+    <filter name="filtro_nombre_servidor_MASUNICA" string="Servidores MASUNICA" domain="[('equipo','like','MASUNICA')]"/>
+<!-- filtrar por servidores mtboasprod-->
+    <filter name="filtro_nombre_servidor_mtboasprod" string="Servidores mtboasprod" domain="[('equipo','like','mtboasprod')]"/>
+<!-- filtrar por servidores MTBSCRIPT-->
+    <filter name="filtro_nombre_servidor_MTBSCRIPT" string="Servidores MTBSCRIPT" domain="[('equipo','like','MTBSCRIPT')]"/>
+<!-- filtrar por servidores mtb-webprod-->
+    <filter name="filtro_nombre_servidor_mtb-webprod" string="Servidores mtb-webprod" domain="[('equipo','like','mtb-webprod')]"/>
+<!-- filtrar por servidores NEWTON"-->
+    <filter name="filtro_nombre_servidor_NEWTON" string="Servidores NEWTON" domain="[('equipo','like','NEWTON')]"/>
+<!-- filtrar por servidores PASCAL"-->
+    <filter name="filtro_nombre_servidor_PASCAL" string="Servidores PASCAL" domain="[('equipo','like','PASCAL')]"/>
+<!-- filtrar por servidores PORTAL"-->
+    <filter name="filtro_nombre_servidor_PORTAL" string="Servidores PASCAL" domain="[('equipo','like','PASCAL')]"/>
+<!-- filtrar por servidores TEBE"-->
+    <filter name="filtro_nombre_servidor_TEBE" string="Servidores TEBE" domain="[('equipo','like','TEBE')]"/>
+<!-- filtrar por servidores USRECRE002"-->
+    <filter name="filtro_nombre_servidor_USRECRE002" string="Servidores USRECRE002" domain="[('equipo','like','USRECRE002')]"/>
+<!-- filtrar por servidores WSP"-->
+    <filter name="filtro_nombre_servidor_WSP" string="Servidores WSP" domain="[('equipo','like','WSP')]"/>
+<!--                                 agrupar por nombre de servidores "                                        -->
+
+    <filter name="agrupar_nombre_servidor" string="Nombre de Servidores" context="{'group_by':'equipo'}"/>
+    <filter name="agrupar_ubicacion_servidor" string="Ubicación de Servidores" context="{'group_by':'ubicacion'}"/>
+
+        </search>
+      </field>
+    </record>
+
+    <!-- MODELO: Equipos SO -->
+    <record model="ir.actions.act_window" id="action_equipos">
+        <field name="name">Equipos SO</field>
+        <field name="res_model">equipos</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- FIN MODELO: Equipos SO -->
+
+    <!-- MENÚ SECUNDARIO: Equipos SO -->
+
+    <!--<menuitem name="Equipos SO" id="menu_equipos" action="action_equipos"/>-->
+
+</data>
+</odoo>

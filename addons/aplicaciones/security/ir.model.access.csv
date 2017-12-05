@@ -1,0 +1,6 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_aplicaciones","aplicaciones","model_aplicaciones","base.group_user",1,0,0,0
+"access_incidencia_aplicacion","incidencia.aplicacion","model_incidencia_aplicacion","base.group_user",1,0,0,0
+"access_bd_aplicacion","bd.aplicacion","model_bd_aplicacion","base.group_user",1,0,0,0
+"access_equipos","equipos","model_equipos","base.group_user",1,0,0,0
+

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<odoo>
+<data>
+
+    <!-- VISTA FORM: Incidencias -->
+    <record model="ir.ui.view" id="view_incidencia_aplicacion_form">
+        <field name="name">incidencia.aplicacion.form</field>
+        <field name="model">incidencia.aplicacion</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="incidencia.aplicacion">
+            <group colspan="2" col="6" >
+               <field name="gerencia_inc"/>
+               <field name="usuario_inc"/>
+               <field name="fecha_inc"/>
+            </group>
+            <hr/>
+            <group colspan="4">
+               <field name="descripcion_inc"/>
+            </group>
+            <hr/>
+            <group colspan="2" col="4" >
+                 <field name="archivo_name" placeholder="INC000001068512"/>
+                 <field name="archivo_inc"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <!-- FIN VISTA FORM: Incidencias -->
+
+    <!-- VISTA TREE: Incidencias -->
+    <record model="ir.ui.view" id="view_incidencia_aplicacion_tree">
+        <field name="name">incidencia.aplicacion.tree</field>
+        <field name="model">incidencia.aplicacion</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="incidencia.aplicacion">
+             <field name="gerencia_inc"/>
+             <field name="usuario_inc"/>
+             <field name="fecha_inc"/>
+             <field name="descripcion_inc"/>
+             <field name="archivo_name" invisible="True" />
+             <field name="archivo_inc" widget="binary" filename="archivo_name"/>
+            <!--<field name="tipo_inc"/>-->
+            </tree>
+        </field>
+    </record>
+    <!-- FIN VISTA TREE: Incidencias -->
+
+    <!-- MODELO: Incidencias -->
+    <record model="ir.actions.act_window" id="action_incidencia_aplicacion">
+        <field name="name">Incidencias</field>
+        <field name="res_model">incidencia.aplicacion</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- FIN MODELO: Incidencias -->
+
+    <!-- MENÚ SECUNDARIO: Incidencias -->
+    <!--<menuitem name="Incidencias" id="menu_incidencia_aplicacion" action="action_incidencia_aplicacion"/>-->
+
+
+</data>
+</odoo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Esta es la views heredada para modificar el FAVICON Y TITULO sin tocar la vista principal de odoo ERP -->
+<odoo>
+    <data>
+
+<!--Herencia para cambiar el favicon.ico y el titulo del sistema a SAIM-MOVILNET-->
+
+        <template id="aplicaciones" inherit_id="web.layout" name="Favicon icon change">
+            <xpath expr="//title" position="replace">
+            <xpath expr="//head//link" position="replace">
+              <title t-esc="title or 'SAIM-MOVILNET'"/>
+              <link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/aplicaciones/static/src/img/favicon.png'"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

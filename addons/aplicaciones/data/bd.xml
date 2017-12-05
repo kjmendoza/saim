@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="0">
+
+	<!-- bd_relacionado_con_aplicativos-->
+
+<record id="bd1" model="bd.aplicacion">
+	  <field name="usuario">Suarez Jean</field>
+		<field name="nombre_bd">EXT</field>
+		<field name="descripcion_d">...</field>
+		<field name="ip_bd">...</field>
+		<field name="data_s">...</field>
+		<field name="data_min">...</field>
+		<field name="data_max">...</field>
+		<field name="configracion">...</field>
+		<field name="bds_id" ref="model_aplicaciones"/>
+
+</record>
+
+</data>
+</odoo>

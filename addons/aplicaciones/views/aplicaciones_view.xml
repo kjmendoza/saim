@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+
+<odoo>
+<data>
+    <!-- VISTA KANBAN: Registro de Aplicaciones -->
+    <record model="ir.ui.view" id="view_aplicaciones_kanban">
+        <field name="name">aplicaciones.form</field>
+        <field name="model">aplicaciones</field>
+        <field name="type">kanban</field>
+        <field name="arch" type="xml">
+          <kanban>
+                <templates>
+                <t t-name="kanban-box">
+                <link rel="stylesheet" type="text/css" href="aplicaciones/static/src/css/aplicaciones.css" media="screen" />
+                <div class="aplicaciones_kanban">
+                <a type="open" colspan="4">
+                <!--<img class="imagen_aplicaciones" t-att-src="kanban_image('aplicaciones', 'foto_aplic', record.id.value)" />-->
+                 <!--<field name="id" ref="field_aplicaciones_create_uid" string="Nº"/>-->
+                <h3><field name="nombre"></field></h3>
+                </a>
+              </div>
+            </t>
+          </templates>
+        </kanban>
+        </field>
+    </record>
+    <!-- FIN VISTA Kanban: Registro de Aplicaciones -->
+
+    <!-- VISTA TREE: Registro de Aplicaciones -->
+    <record model="ir.ui.view" id="view_aplicaciones_tree">
+        <field name="name">aplicaciones.tree</field>
+        <field name="model">aplicaciones</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="aplicaciones">
+              <field name="id" ref="field_aplicaciones_create_uid" string="Nº"/>
+              <!--<field name="foto_aplic"/>-->
+              <field name="nombre"/>
+              <field name="descripcion"/>
+              <field name="falla"/>
+              <field name="descripcion_f"/>
+              <field name="descripcion_i"/>
+              <field name="arquitectura"/>
+              <field name="descripcion_arq"/>
+            </tree>
+        </field>
+    </record>
+    <!-- FIN VISTA TREE: Registro de Aplicaciones -->
+
+    <!-- VISTA FORM: Registro de Aplicaciones-->
+
+    <record model="ir.ui.view" id="view_aplicaciones_form">
+     <field name="name">aplicaciones.form</field>
+     <field name="model">aplicaciones</field>
+     <field name="type">form</field>
+     <field name="arch" type="xml">
+       <form string="">
+         <sheet colspan="4">
+             <link rel="stylesheet" type="text/css" href="aplicaciones/static/src/css/aplicaciones.css" media="screen" />
+              <!--<div class="foto_aplic_form" >
+
+           <field name="foto_aplic" nolabel="0" widget="image"/>
+              </div> -->
+
+                <div class="aplicaciones" col="2" colspan="4">
+           <!--titulo app-->
+           <h1><field name="nombre" nolabel="0" placeholder="Nombre del Aplicativo"/></h1>
+           <!--descripción app-->
+           <p><field name="descripcion" nolabel="0" placeholder="Descripción General"/></p>
+                </div>
+
+        </sheet>
+        <sheet colspan="4" class="sheet_inicio">
+         <notebook>
+               <!-- PAGE: Informacion de aplicativo-->
+           <page name="informacion-aplicativo" string="Información de Aplicativo">
+              <group colspan="4">
+                   <field name="falla" placeholder ="Ingrese posible fallas del aplicativo"/>
+              </group>
+              <group colspan="2" col="4">
+                   <field name="descripcion_f" placeholder ="Ingrese la afectacón en el negocio del aplicativo"/>
+                   <field name="descripcion_i"  placeholder ="Ingrese la afectacón en la ingenería del aplicativo"/>
+              </group>
+           </page>
+           <!-- PAGE: Informacion de Interconexion-->
+           <page name="informacion-interconexion" string="Interconexión">
+             <h4>Características Principales</h4>
+           <hr/>
+             <newline/>
+              <group colspan="4">
+                 <field name="arquitectura" widget="image"/>
+              </group>
+              <newline/>
+              <hr/>
+              <h4>Características Específicas</h4>
+              <hr/>
+              <newline/>
+              <group>
+                <field name="descripcion_arq"/>
+              </group>
+           </page>
+
+           <!-- PAGE: Informacion de Sistema Operativo-->
+           <page name="informacion-sistema-operativo" string="Sistema Operativo">
+             <h4>Características Principales</h4>
+           <hr/>
+             <newline/>
+              <group colspan="4">
+                 <field name="equipos_id" string="Servidor(es)" widget="many2many" />
+              </group>
+            </page>
+                 <!-- PAGE: Informacion de Base de Datos-->
+
+           <page name="informacion-bd" string="Base de Datos">
+             <h4>Características Principales</h4>
+           <hr/>
+             <newline/>
+              <group colspan="4">
+                  <field name="bds_id" string="BD" widget="many2many"/>
+              </group>
+              <newline/>
+              <hr/>
+              <h4>Características Específicas</h4>
+              <hr/>
+              <newline/>
+              <group colspan="4">
+                <field name="data_source_id" widget="many2many_tags" string="Data Source"/>
+              </group>
+              <group col="4" colspan="2">
+                <field name="data_mini_id" widget="many2many_tags" string="Data MIX"/>
+                <field name="data_maxi_id" widget="many2many_tags" string="Data MAX"/>
+              </group>
+              <group colspan="4">
+              <field name="config_id" widget="many2many_tags" string="Configuración"/>
+              </group>
+              </page>
+           <page name="informacion-incidencia" string="Incidencias">
+              <group>
+              <group colspan="2">
+              <separator string='Incidencias' colspan="4"/>
+                  <field name="incidente_id" widget="many2many" colspan="4" nolabel="1" string="Incidencia"/>
+              </group>
+              </group>
+           </page>
+          </notebook>
+             </sheet>
+       </form>
+     </field>
+   </record>
+
+   <!-- VISTA SEARCH: Aplicaciones-->
+
+   <record  model="ir.ui.view" id="view_aplicacion_search">
+     <field name="name">aplicaciones.search></field>
+     <field name="model">aplicaciones</field>
+     <field name="type">search</field>
+     <field name="arch" type="xml">
+       <search string="Busqueda">
+           <field name="nombre" string="Nombre de Aplicativo"/>
+       </search>
+     </field>
+   </record>
+  <!-- FIN VISTA TREE: Aplicaciones -->
+
+    <!-- MODELO: Registro de Aplicaciones -->
+    <record model="ir.actions.act_window" id="action_aplicaciones">
+        <field name="name">Movilnet/Aplicativos</field>
+        <field name="res_model">aplicaciones</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">kanban,form</field>
+    </record>
+    <!-- FIN MODELO: Aplicaciones -->
+
+    <!-- MENÚ PRIMARIO: REGISTRO DE aplicaciones -->
+    <menuitem name="Aplicativos" id="menu_aplicaciones" action="action_aplicaciones" />
+
+    <!-- MENÚ SECUNDARIO: Registro de Aplicaciones -->
+    <!--<menuitem name="Aplicativos" id="menu_aplicaciones_null" parent="menu_aplicaciones" action="action_aplicaciones"/>-->
+</data>
+</odoo>

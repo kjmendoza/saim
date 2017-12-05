@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Esta es la views heredada para modificar el login_layout sin tocar la vista principal de odoo ERP -->
+<odoo>
+    <data>
+
+      <!-- style css de la herencia login.web-->
+
+        <template id="login_layout_inherit" name="Login CSS " inherit_id="web.assets_frontend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/aplicaciones/static/src/css/login.css"/>
+            </xpath>
+        </template>
+
+<!--centrar el login y colocarlo mas pequeño con login_layout_inherit-->
+
+        <template id="aplicaciones.web_login_layout" inherit_id="web.login_layout" name="Login_layout_inherit">
+            <xpath expr="//div[@class='row']" position="replace">
+              <div class="login_layout_center">
+              <div class="col-md-4 col-md-offset-4 o_database_list">
+                  <div class="text-center">
+                      <img t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}"/>
+                  </div>
+                  <t t-raw="0"/>
+                  <div class="text-center" t-if="not disable_footer">
+                      <t t-if="not disable_database_manager">
+                          <a class="" href="http://www.movilnet.com.ve/sitio/">Sitio Web Movilnet</a>
+                      </t>
+                    <br/><a target="_blank">Desarrollado Por <span>Grupo de Pasantes Movilnet 2017</span></a>
+                  </div>
+                </div>
+              </div>
+            </xpath>
+
+        </template>
+    </data>
+</odoo>

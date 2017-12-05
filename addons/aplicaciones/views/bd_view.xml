@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+
+<odoo>
+<data>
+
+    <!-- VISTA FORM: Base de Datos -->
+
+    <record model="ir.ui.view" id="view_bd_aplicacion_form">
+        <field name="name">bd.aplicacion.form</field>
+        <field name="model">bd.aplicacion</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="bd.aplicacion">
+            <group colspan="2" col="4">
+                <field name="nombre_bd"/>
+                <field name="descripcion_d"/>
+            </group>
+            <hr/>
+            <group  colspan="4">
+              <field name="ip_bd"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <!-- FIN VISTA FORM: Base de Datos -->
+
+    <!-- VISTA SEARCH: bd-->
+
+    <record  model="ir.ui.view" id="view_bd_search">
+      <field name="name">bd.aplicacion.search</field>
+      <field name="model">bd.aplicacion</field>
+      <field name="type">search</field>
+      <field name="arch" type="xml">
+        <search string="Busqueda">
+          <!--                                      filtro por servidores                                           -->
+          <!-- filtrar por BD EXT"-->
+              <filter name="filtro_nombre_BD_EXT" string="EXT" domain="[('nombre_bd','like','EXT')]"/>
+          <!-- filtrar por BD KEPPER"-->
+              <filter name="filtro_nombre_BD_KEPPER" string="KEPPER" domain="[('nombre_bd','like','KEPPER')]"/>
+          <!-- filtrar por BD XPERT"-->
+              <filter name="filtro_nombre_BD_XPERT" string="XPERT" domain="[('nombre_bd','like','XPERT')]"/>
+          <!-- filtrar por BD PPINE"-->
+              <filter name="filtro_nombre_BD_PPINE" string="PPINE" domain="[('nombre_bd','like','PPINE')]"/>
+          <!-- filtrar por BD CDMA_BTO"-->
+              <filter name="filtro_nombre_BD_CDMA_BTO" string="CDMA_BTO" domain="[('nombre_bd','like','CDMA_BTO')]"/>
+          <!-- filtrar por BD CDMA_CCS"-->
+              <filter name="filtro_nombre_BD_CDMA_CCS" string="CDMA_CCS" domain="[('nombre_bd','like','CDMA_CCS')]"/>
+          <!-- filtrar por BD PMVOL"-->
+              <filter name="filtro_nombre_BD_PMVOL" string="PMVOL" domain="[('nombre_bd','like','PMVOL')]"/>
+          <!-- filtrar por BD PROD86"-->
+              <filter name="filtro_nombre_BD_PROD86" string="PROD86" domain="[('nombre_bd','like','PROD86')]"/>
+          <!-- filtrar por BD  ESBDB"-->
+              <filter name="filtro_nombre_BD_ ESBDB" string="ESBDB" domain="[('nombre_bd','like',' ESBDB')]"/>
+          <!-- filtrar por BD TAGOTIS"-->
+              <filter name="filtro_nombre_BD_TAGOTIS" string="TAGOTIS" domain="[('nombre_bd','like','TAGOTIS')]"/>
+          <!-- filtrar por BD  PPAS4"-->
+              <filter name="filtro_nombre_BD_PPAS4" string="PPAS4" domain="[('nombre_bd','like','PPAS4')]"/>
+          <!-- filtrar por BD  CDMABTO"-->
+              <filter name="filtro_nombre_BD_CDMABTO" string="CDMABTO" domain="[('nombre_bd','like','CDMABTO')]"/>
+          <!-- filtrar por BD  BD2RCO"-->
+              <filter name="filtro_nombre_BD_BD2RCO" string="BD2RCO" domain="[('nombre_bd','like','BD2RCO')]"/>
+          <!-- filtrar por BD  BD3RCO"-->
+              <filter name="filtro_nombre_BD_BD3RCO" string="BD3RCO" domain="[('nombre_bd','like','BD3RCO')]"/>
+          <!-- filtrar por BD  PRNDB1"-->
+              <filter name="filtro_nombre_BD_PRNDB1" string="PRNDB1" domain="[('nombre_bd','like','PRNDB1')]"/>
+          <!-- filtrar por BD COSTOMER"-->
+              <filter name="filtro_nombre_BD_COSTOMER" string="COSTOMER" domain="[('nombre_bd','like','COSTOMER')]"/>
+         <!-- filtrar por BD CRTBDD"-->
+              <filter name="filtro_nombre_BD_RTBDD" string="RTBDD" domain="[('nombre_bd','like','RTBDD')]"/>
+         <!-- filtrar por BD JUPITER 2"-->
+              <filter name="filtro_nombre_BD_JUPITER 2" string="JUPITER 2" domain="[('nombre_bd','like','JUPITER 2')]"/>
+         <!-- filtrar por BD INGREPEPA"-->
+              <filter name="filtro_nombre_BD_INGREPEPA" string="INGREPEPA" domain="[('nombre_bd','like','INGREPEPA')]"/>
+         <!-- filtrar por BD TDMA"-->
+              <filter name="filtro_nombre_BD_TDMA" string="TDMA" domain="[('nombre_bd','like','TDMA')]"/>
+         <!-- filtrar por BD TFI"-->
+              <filter name="filtro_nombre_BD_TFI" string="TFI" domain="[('nombre_bd','like','TFI')]"/>
+         <!-- filtrar por BD PAC_PORTAL"-->
+              <filter name="filtro_nombre_BD_PAC_PORTAL" string="PAC_PORTAL" domain="[('nombre_bd','like','PAC_PORTAL')]"/>
+         <!-- filtrar por BD BDSERIE"-->
+              <filter name="filtro_nombre_BD_BDSERIE" string="BDSERIE" domain="[('nombre_bd','like','BDSERIE')]"/>
+         <!-- filtrar por BD CONVIT"-->
+              <filter name="filtro_nombre_BD_CONVIT" string="CONVIT" domain="[('nombre_bd','like','CONVIT')]"/>
+         <!-- filtrar por BD RTBD_PROD"-->
+              <filter name="filtro_nombre_BD_TRTBD_PROD" string="RTBD_PROD" domain="[('nombre_bd','like','RTBD_PROD')]"/>
+         <!-- filtrar por BD HERMES"-->
+              <filter name="filtro_nombre_BD_HERMES" string="HERMES" domain="[('nombre_bd','like','HERMES')]"/>
+         <!-- filtrar por BD CRMDB"-->
+              <filter name="filtro_nombre_BD_CRMDB" string="CRMDB" domain="[('nombre_bd','like','CRMDB')]"/>
+         <!-- filtrar por BD PRNDB1"-->
+              <filter name="filtro_nombre_BD_PRNDB1" string="PRNDB1" domain="[('nombre_bd','like','PRNDB1')]"/>
+         <!-- filtrar por BD DBIMEIR"-->
+              <filter name="filtro_nombre_BD_DBIMEIR" string="DBIMEIR" domain="[('nombre_bd','like','DBIMEIR')]"/>
+         <!-- filtrar por BD PRN"-->
+              <filter name="filtro_nombre_BD_PRN" string="PRN" domain="[('nombre_bd','like','PRN')]"/>
+         <!-- filtrar por BD CRMDB1"-->
+              <filter name="filtro_nombre_BD_CRMDB1" string="CRMDB1" domain="[('nombre_bd','like','CRMDB1')]"/>
+         <!-- filtrar por BD CRMDB2"-->
+             <filter name="filtro_nombre_BD_CRMDB2" string="CRMDB2" domain="[('nombre_bd','like','CRMDB2')]"/>
+
+          <!--                                 agrupar por nombre de BD "                                        -->
+            <filter name="agrupar_nombre_bd" string="Nombre de BD" context="{'group_by':'nombre_bd'}"/>
+
+        </search>
+      </field>
+    </record>
+   <!-- FIN VISTA TREE: Aplicaciones -->
+
+    <!-- VISTA TREE: Base de Datos -->
+    <record model="ir.ui.view" id="view_bd_aplicacion_tree">
+        <field name="name">bd.aplicacion.tree</field>
+        <field name="model">bd.aplicacion</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="bd.aplicacion">
+                <field name="nombre_bd"/>
+                <field name="descripcion_d"/>
+                <field name="ip_bd"/>
+
+            </tree>
+        </field>
+    </record>
+    <!-- FIN VISTA TREE: Base de Datos -->
+
+    <!-- MODELO: Base de Datos -->
+    <record model="ir.actions.act_window" id="action_bd_aplicacion">
+        <field name="name">Base de Datos</field>
+        <field name="res_model">bd.aplicacion</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- FIN MODELO: Base de Datos -->
+
+    <!-- MENÚ SECUNDARIO: Base de Datos -->
+    <!--<menuitem name="Base de Datos" id="menu_bd_aplicacion" action="action_bd_aplicacion"/>-->
+
+    <!-- VISTA FORM: data_s.aplicaciones -->
+    <record model="ir.ui.view" id="view_bd_data_s_form">
+        <field name="name">data.s.aplicacion.form</field>
+        <field name="model">data.s.aplicacion</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="data.s.aplicacion">
+            <field name="data_s"/>
+            </form>
+        </field>
+    </record>
+    <!-- FIN VISTA FORM: data_s.aplicaciones -->
+
+
+    <!-- VISTA TREE:DATA_SOURCE -->
+    <record model="ir.ui.view" id="view_bd_data_s_tree">
+        <field name="name">data.s.aplicacion.tree</field>
+        <field name="model">data.s.aplicacion</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="data.s.aplicacion">
+                <field name="data_s"/>
+            </tree>
+        </field>
+    </record>
+    <!-- FIN VISTA TREE:DATA_SOURCE -->
+
+    <!-- MODELO: data_s.aplicaciones -->
+    <record model="ir.actions.act_window" id="action_data_s_aplicacion">
+        <field name="name">Data Source</field>
+        <field name="res_model">data.s.aplicacion</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <!-- FIN MODELO: data_S.aplicaciones -->
+
+    <!-- VISTA FORM: data_min.aplicaciones -->
+
+    <record model="ir.ui.view" id="view_bd_data_min_form">
+        <field name="name">data.min.aplicacion.form</field>
+        <field name="model">data.min.aplicacion</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="data.min.aplicacion">
+            <field name="data_min"/>
+            </form>
+        </field>
+    </record>
+    <!-- FIN VISTA FORM: data_min.aplicaciones -->
+
+    <!-- VISTA TREE:DATA_MIN -->
+    <record model="ir.ui.view" id="view_bd_data_min_tree">
+        <field name="name">data.min.aplicacion.tree</field>
+        <field name="model">data.min.aplicacion</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="data.min.aplicacion">
+                <field name="data_min"/>
+            </tree>
+        </field>
+    </record>
+    <!-- FIN VISTA TREE:DATA_MIN -->
+
+
+    <!-- MODELO: data_min.aplicaciones -->
+    <record model="ir.actions.act_window" id="action_data_min_aplicacion">
+        <field name="name">Data Min</field>
+        <field name="res_model">data.min.aplicacion</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+    </record>
+    <!-- FIN MODELO: data_min.aplicaciones -->
+
+
+    <!-- VISTA FORM: data_max.aplicaciones -->
+
+    <record model="ir.ui.view" id="view_bd_data_max_form">
+        <field name="name">data.max.aplicacion.form</field>
+        <field name="model">data.max.aplicacion</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="data.max.aplicacion">
+            <field name="data_max" string="Data Max"/>
+            </form>
+        </field>
+    </record>
+    <!-- FIN VISTA FORM: data_max.aplicaciones -->
+
+    <!-- VISTA TREE:DATA_MAX -->
+    <record model="ir.ui.view" id="view_bd_data_max_tree">
+        <field name="name">data.max.aplicacion.tree</field>
+        <field name="model">data.max.aplicacion</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="data.max.aplicacion">
+                <field name="data_max"/>
+            </tree>
+        </field>
+    </record>
+    <!-- FIN VISTA TREE:DATA_MAX -->
+
+    <!-- MODELO: data_max.aplicaciones -->
+    <record model="ir.actions.act_window" id="action_data_max_aplicacion">
+        <field name="name">Data Max</field>
+        <field name="res_model">data.max.aplicacion</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+    </record>
+    <!-- FIN MODELO: data_max.aplicaciones -->
+
+
+    <!-- VISTA FORM: conf.aplicaciones -->
+
+    <record model="ir.ui.view" id="view_bd_conf_form">
+        <field name="name">conf.aplicacion.form</field>
+        <field name="model">conf.aplicacion</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="conf.aplicacion">
+            <field name="configuracion" string="Configuración"/>
+            </form>
+        </field>
+    </record>
+    <!-- FIN VISTA FORM: conf.aplicaciones -->
+
+    <!-- MODELO: data_max.aplicaciones -->
+    <record model="ir.actions.act_window" id="action_conf_aplicacion">
+        <field name="name">Configuración</field>
+        <field name="res_model">conf.aplicacion</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+    </record>
+    <!-- FIN MODELO: conf.aplicaciones -->
+
+
+</data>
+</odoo>
